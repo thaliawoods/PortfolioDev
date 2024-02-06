@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+
+
+/*root*/
+:root {
+    --main: rgb(30, 120, 193);
+    --boxShadow: 10px 10px10px -15px rgb(30, 120, 193),
+      inset 10px 10px 10px -10px rgb(30, 120, 193);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none !important;
+    transition: 0.2s ease-in;
+}
+
+*::selection {
+  background: var(--main);
+  color: rgb(30, 120, 193);
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+body {
+  background: rgb(255, 255, 255);
+}
+
+
+
+/*pour MainContainer*/
+.MainContainer{
+  margin: 0 auto;
+  padding: 0 10px;
+  min-height: 100vh;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px -10px rgb(30, 120, 193)rgb(30, 120, 193)black, inset 10px 10px 10px -10px rgb(30, 120, 193)black;
+  background: rgb(255, 255, 255);
+  color: white;
+}

@@ -1,0 +1,50 @@
+/* style about */
+
+.AboutMain{
+    position: relative;
+}
+
+.AboutImgParent{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.AboutImg{
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+.AboutImg:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+
+/*for about content*/
+.AboutContent{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(30, 120, 193);
+    padding: 20px;
+}
+
+.AboutContent h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/*for more dets*/
+.MoreDetails{
+    display: flex;
+    gap: 15px;
+    color:black;
+}
+
+.Desc{
+    font-size: 12px;
+    font-weight: 800;
+    margin: 120px auto;
+}

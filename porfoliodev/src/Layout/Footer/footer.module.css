@@ -1,0 +1,15 @@
+/* styles footer */
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    background: var(--main);
+    box-shadow: var(--boxShadow);
+    padding: 10px;
+}
+
+.Footer h6 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    cursor: pointer;
+}

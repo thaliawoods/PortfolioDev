@@ -1,0 +1,27 @@
+/* style navbar */
+
+.container{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(69, 110, 143);
+}
+
+.container .Logo{
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--main) !important;
+}
+
+.navLink{
+    margin: 0 25px;
+    color: rgb(30, 120, 193) !important;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.navLink:hover {
+    background: var(--main)!important;
+    color: rgb(50, 20, 200) !important;
+}

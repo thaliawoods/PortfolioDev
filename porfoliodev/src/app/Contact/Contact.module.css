@@ -1,0 +1,46 @@
+.Contact h2{
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ContactContent{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.ContactContent .Img{
+    position: relative;
+    height: 720px;
+    flex: 1;
+}
+
+.ContactImg{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.ContactForm{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.box,
+.textarea{
+    background: none !important;
+    padding: 10px;
+    /* border: none !important; */
+    /* outline: none !important; */
+    color: rgb(56, 54, 54);
+    /* border: 0.5p solid rgb(90, 86, 86) !important; */
+    border-radius: 15px;
+}
+
+.box::placeholder, .textarea::placeholder{
+    color: white !important;
+}
